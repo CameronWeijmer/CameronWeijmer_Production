@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
 
 body {
-  background-image: url("/img/background.jpg");
+  background-image: url("/src/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 .nav_div {
-  background-image: url('/img/navigation.jpg');
+  background-image: url('/src/img/navigation.jpg');
   /* filter: invert(1); */
 }
 
