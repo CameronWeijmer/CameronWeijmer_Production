@@ -47,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(87, 44, 245);
+  color: #0000ff;
   font-size: 30px;
   text-decoration: none;
 }
@@ -65,4 +65,12 @@ nav ul li a {
   letter-spacing: 0.25rem;
   font-size: 1.5rem;
   color: #fff;
+}
+
+span {
+  transition: all 0.5s ease;
+}
+
+span.cover {
+  color: #0000ff;
 }
