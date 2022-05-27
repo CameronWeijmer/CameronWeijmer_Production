@@ -10,7 +10,7 @@
 body {
   background-image: url("/img/background.jpg");
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -87,7 +87,6 @@ footer {
 .wrapper .static-txt {
   color: #fff;
   font-size: 60px;
-  font-weight: 400;
 }
 
 .wrapper .dynamic-txts {
@@ -144,7 +143,7 @@ footer {
   margin: 50px;
   border-radius: 10px;
   border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0);
+  background: #ffdd0023;
   box-shadow: #ffdd00 0px 25px 50px 5px;
 }
 
@@ -155,7 +154,7 @@ footer {
   margin: 50px;
   border-radius: 10px;
   border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0);
+  background: #e34c2622;
   box-shadow: #e34c26 0px 25px 50px 5px;
 }
 
@@ -171,7 +170,7 @@ footer {
   margin: 50px;
   border-radius: 10px;
   border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0);
+  background: #264ce428;
   box-shadow: #264de4 0px 25px 50px 5px;
 }
 
@@ -187,7 +186,7 @@ footer {
   margin: 50px;
   border-radius: 10px;
   border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0);
+  background: #48ff0022;
   box-shadow: #48ff00 0px 25px 50px 5px;
 }
 
