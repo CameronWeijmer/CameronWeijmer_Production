@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
 
 body {
-  background-image: url("/img/background2.jpg");
+  background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -56,11 +56,133 @@ nav ul li a {
   filter: invert(0);
 }
 
-footer{
+footer {
   background-color: grey;
   color: #fff;
 }
 
-#abtme{
+#abtme {
   color: black;
+}
+
+#goBack {
+  cursor: pointer;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0rem 7rem 4rem;
+}
+
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+#javascript {
+  color: #e7cc1f;
+}
+
+#html {
+  color: #e34c26;
+}
+
+#css {
+  color: #264de4;
+}
+
+#nodejs {
+  color: #48ff00;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: #ffdd00 0px 25px 50px 5px;
+}
+
+.outside_box2 {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: #e34c26 0px 25px 50px 5px;
+}
+
+.box2 {
+  padding-top: 2.25rem;
+  padding-left: 1.5rem;
+}
+
+.outside_box3 {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: #264de4 0px 25px 50px 5px;
+}
+
+.box3 {
+  padding-top: 2.25rem;
+  padding-left: 1.5rem;
+}
+
+.outside_box4 {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: #48ff00 0px 25px 50px 5px;
+}
+
+.box4 {
+  padding-top: 3rem;
 }
