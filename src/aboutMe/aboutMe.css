@@ -55,3 +55,12 @@ nav ul li a {
   background-image: url('/img/navigation.jpg');
   filter: invert(0);
 }
+
+footer{
+  background-color: grey;
+  color: #fff;
+}
+
+#abtme{
+  color: black;
+}
