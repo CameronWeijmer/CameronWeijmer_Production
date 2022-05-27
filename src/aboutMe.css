@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
 
 body {
-  background-image: url("/img/background.jpg");
+  background-image: url("/img/background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53,59 +53,5 @@ nav ul li a {
 
 .nav_div {
   background-image: url('/img/navigation.jpg');
-  /* filter: invert(1); */
-}
-
-.content {
-  position: fixed;
-  top: 45%;
-  left: 20%;
-  word-spacing: 0.25rem;
-  letter-spacing: 0.25rem;
-  font-size: 2rem;
-  color: #fff;
-}
-
-span {
-  transition: all 0.5s ease;
-}
-
-span.cover {
-  color: #1498D5;
-}
-
-button {
-  background: none;
-  border: 2px solid #fff;
-  font: inherit;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 0.5em 1rem;
-}
-
-button {
-  color: color #fff;
-  transition: 0.25s;
-}
-
-.button{
-  display: flex;
-  justify-content: right;
-}
-
-.pulse{
-  color: #fff;
-  font-size: 20px;
-}
-
-.pulse:hover,
-.pulse:focus {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 #1498D5;
-  }
+  filter: invert(0);
 }
