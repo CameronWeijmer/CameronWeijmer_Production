@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
 
-body {
-  background-image: url("/img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 nav {
