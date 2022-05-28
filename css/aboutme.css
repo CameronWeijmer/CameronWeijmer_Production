@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("/src/img/background.jpg");
+  background-image: url("../assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 .nav_div {
-  background-image: url('/src/img/nav_imp.jpg');
+  background-image: url('../assets/nav_imp.jpg');
 }
 
 footer {
