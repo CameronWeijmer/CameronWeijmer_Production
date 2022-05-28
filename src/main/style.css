@@ -24,8 +24,8 @@ nav ul {
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-right: 2rem;
+  justify-content: left;
+  padding-left: 10rem;
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1498D5;
+  color: #000000;
   font-size: 30px;
   text-decoration: none;
 }
@@ -96,6 +96,7 @@ button {
 .pulse{
   color: #fff;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .pulse:hover,

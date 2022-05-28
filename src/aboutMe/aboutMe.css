@@ -60,8 +60,7 @@ nav ul li a {
 }
 
 .nav_div {
-  background-image: url('/src/img/navigation.jpg');
-  filter: invert(0);
+  background-image: url('/src/img/nav_imp.jpg');
 }
 
 footer {
@@ -70,7 +69,7 @@ footer {
 }
 
 #abtme {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #goBack {
