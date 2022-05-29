@@ -61,7 +61,7 @@ nav ul li a {
   left: 20%;
   word-spacing: 0.25rem;
   letter-spacing: 0.25rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ button {
   font: inherit;
   line-height: 1;
   margin: 0.5em;
-  padding: 0.5em 1rem;
+  padding: 0.25em 0.75rem;
 }
 
 button {
@@ -94,7 +94,7 @@ button {
 
 .pulse{
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
 }
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -54,15 +54,32 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1498D5;
+  color: #1498d5;
   font-size: 30px;
   text-decoration: none;
 }
 
 .nav_div {
-  background-image: url('../assets/navigation.jpg');
+  background-image: url("../assets/navigation.jpg");
 }
 
-#goBack {
-  cursor: pointer;
+.policy {
+  margin: 0rem 10rem 5rem 10rem;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.policy_all{
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
