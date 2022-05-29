@@ -75,16 +75,13 @@ span.cover {
 
 button {
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #1498D5;
+
   font: inherit;
   line-height: 1;
   margin: 0.5em;
-  padding: 0.25em 0.75rem;
-}
-
-button {
-  color: color #fff;
-  transition: 0.25s;
+  padding: 0.5em 1rem;
+  border-radius: 20px;
 }
 
 .button{
@@ -94,12 +91,13 @@ button {
 
 .pulse{
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .pulse:hover,
 .pulse:focus {
+
   animation: pulse 1s;
   box-shadow: 0 0 0 2em transparent;
 }
@@ -112,4 +110,7 @@ button {
 
 #aboutme{
   color: #1498D5;
+}
+
+.name{
 }
