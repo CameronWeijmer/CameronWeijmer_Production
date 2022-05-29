@@ -18,7 +18,7 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  -user-drag: none;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #1556b1;
+  color: #1498D5;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1498d5;
+  color: #000;
   font-size: 30px;
   text-decoration: none;
 }
@@ -82,4 +82,8 @@ nav ul li a {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
+}
+
+#policy{
+    color: #1498D5;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -18,7 +18,7 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  -user-drag: none;
 }
 
 nav {
@@ -54,13 +54,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1498D5;
+  color: #1498d5;
   font-size: 30px;
   text-decoration: none;
 }
 
 .nav_div {
-  background-image: url('../assets/nav_imp.jpg');
+  background-image: url("../assets/nav_imp.jpg");
 }
 
 footer {
@@ -76,16 +76,16 @@ footer {
   cursor: pointer;
 }
 
-
 .wrapper {
   display: flex;
   justify-content: center;
   padding: 5rem 0rem 7rem 4rem;
+  font-size: 30px;
 }
 
 .wrapper .static-txt {
   color: #fff;
-  font-size: 60px;
+  padding-top: 1.4rem;
 }
 
 .wrapper .dynamic-txts {
@@ -97,7 +97,7 @@ footer {
 
 .dynamic-txts li {
   list-style: none;
-  font-size: 60px;
+  /* font-size: 40px; */
   position: relative;
   top: 0;
   animation: slide 12s steps(4) infinite;
@@ -136,19 +136,19 @@ footer {
 }
 
 .box1 {
-  transition: box-shadow .3s;
-  width: 300px;
-  height: 50px;
-  margin: 50px;
-  border-radius: 10px;
+  transition: box-shadow 0.3s;
+  width: 200px; /* länge  */
+  height: 50px; /* breite */
+  margin: 50px; /* postion */
+  border-radius: 10px; /* rundung der ecken */
   border: 1px solid #ccc;
   background: #ffdd0023;
   box-shadow: #ffdd00 0px 25px 50px 5px;
 }
 
 .outside_box2 {
-  transition: box-shadow .3s;
-  width: 300px;
+  transition: box-shadow 0.3s;
+  width: 200px;
   height: 50px;
   margin: 50px;
   border-radius: 10px;
@@ -163,8 +163,8 @@ footer {
 }
 
 .outside_box3 {
-  transition: box-shadow .3s;
-  width: 300px;
+  transition: box-shadow 0.3s;
+  width: 200px;
   height: 50px;
   margin: 50px;
   border-radius: 10px;
@@ -179,8 +179,8 @@ footer {
 }
 
 .outside_box4 {
-  transition: box-shadow .3s;
-  width: 300px;
+  transition: box-shadow 0.3s;
+  width: 200px;
   height: 50px;
   margin: 50px;
   border-radius: 10px;
