@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Molle&family=Poppins:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -54,15 +54,19 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #1498D5;
+  color: #000;
   font-size: 30px;
   text-decoration: none;
 }
 
 .nav_div {
-  background-image: url('../assets/navigation.jpg');
+  background-image: url("../assets/navigation.jpg");
 }
 
 #goBack {
   cursor: pointer;
+}
+
+#projects{
+  color: #1556b1;
 }
