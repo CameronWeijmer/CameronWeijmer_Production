@@ -57,10 +57,11 @@ nav ul li a {
 }
 
 .content {
-  background-image: url("../assets/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   top: 45%;
   left: 22%;
   word-spacing: 0.25rem;
