@@ -87,11 +87,12 @@ button {
   border-radius: 20px;
 }
 
-.button{
+.button {
   display: flex;
+  padding-top: 1rem;
 }
 
-.pulse{
+.pulse {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -110,6 +111,17 @@ button {
   }
 }
 
-#aboutme{
+#aboutme {
   color: #1498D5;
+}
+
+.desc {
+  display: flex;
+  justify-content: left;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+#desc_p {
+  font-size: 1.25rem;
 }
