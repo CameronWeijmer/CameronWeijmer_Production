@@ -89,7 +89,6 @@ button {
 
 .button{
   display: flex;
-  justify-content: right;
 }
 
 .pulse{
