@@ -28,7 +28,7 @@ function done() {
 let menuList = document.getElementById("menuList");
 const content_block = document.getElementById("content_block");
 
-menuList.style.maxHeight = "0px";
+menuList.style.maxHeight = "20px";
 
 // Function to toggle the menulist
 function togglemenu() {

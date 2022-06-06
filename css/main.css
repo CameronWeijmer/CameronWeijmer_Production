@@ -132,7 +132,7 @@ button {
 
 @media only screen and (max-width: 700px) {
 
-  #menuList{
+  #menuList {
     visibility: hidden;
   }
 
@@ -140,8 +140,42 @@ button {
     width: 100;
     cursor: pointer;
   }
- 
+
   .dropdown {
     visibility: visible;
   }
+
+  .name {
+    position: relative;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+  }
+
+  .br_none {
+    display: none;
+  }
+
+  .desc {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    display: flex;
+    justify-content: left;
+    padding-left: 0rem;
+    padding-top: 0rem;
+  }
+
+  #desc_p {
+    font-size: 1rem;
+  }
+
+  .button {
+    display: flex;
+    position: relative;
+    top: 60%;
+    right: 5%;
+    /* padding-top: 5rem; */
+  }
+
 }
