@@ -12,13 +12,18 @@
 <body>
     <div class="nav_div">
         <nav>
-            <ul>
+            <ul id="menuList">
                 <li><a id="aboutme" href="index.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="policy.html">Policy</a></li>
             </ul>
-            <br>
+            <div class="menuicon">
+                <div class="dropdown">
+                    <img id="img_menu_icon" src="./assets/menu_icon.png" alt="Dropdown-menu" height="20"
+                        onclick="togglemenu()" />
+                </div>
+            </div>
         </nav>
     </div>
     <div class="content">
