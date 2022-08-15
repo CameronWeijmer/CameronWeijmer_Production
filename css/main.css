@@ -133,6 +133,7 @@ button {
 
   #menuList {
     visibility: hidden;
+    height: 0px;
   }
 
   #img_menu_icon {
@@ -172,6 +173,10 @@ button {
     padding-top: 0rem;
     word-spacing: normal;
     letter-spacing: normal;
+  }
+
+  .toggle {
+    height: 500px !important;
   }
 
   #desc_p {
