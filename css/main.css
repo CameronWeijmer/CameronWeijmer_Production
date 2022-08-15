@@ -46,13 +46,9 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
   font-size: 30px;
   text-decoration: none;
-}
-
-.nav_div {
-  background-image: url('../assets/navigation.jpg');
 }
 
 .dropdown {
@@ -65,8 +61,6 @@ nav ul li a {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  top: 45%;
-  left: 22%;
   word-spacing: 0.25rem;
   letter-spacing: 0.25rem;
   font-size: 1.75rem;
@@ -137,8 +131,11 @@ button {
   }
 
   #img_menu_icon {
-    width: 100;
+    position: absolute;
+    top: 3%;
+    left: 80%;
     cursor: pointer;
+    filter: invert(1);
   }
 
   .dropdown {
@@ -158,16 +155,18 @@ button {
 
   .desc {
     position: relative;
-    top: 25%;
-    left: 5%;
+    top: 5%;
+    left: 1%;
     display: flex;
     justify-content: left;
     padding-left: 0rem;
     padding-top: 0rem;
+    word-spacing: normal;
+    letter-spacing: normal;
   }
 
   #desc_p {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .button {
@@ -175,7 +174,6 @@ button {
     position: relative;
     top: 60%;
     right: 5%;
-    /* padding-top: 5rem; */
   }
 
 }
