@@ -4,6 +4,7 @@ body {
   background-image: url("../assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #000;
 }
 
 * {
@@ -126,6 +127,10 @@ button {
 
 @media only screen and (max-width: 700px) {
 
+  body {
+    min-height: 100vh;
+  }
+
   #menuList {
     visibility: hidden;
   }
@@ -136,6 +141,10 @@ button {
     left: 80%;
     cursor: pointer;
     filter: invert(1);
+  }
+
+  .content {
+    min-height: 500px;
   }
 
   .dropdown {
