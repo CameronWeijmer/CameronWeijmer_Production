@@ -25,11 +25,12 @@ function done() {
   clock = null;
 }
 
-let menuList = document.getElementById("menuList");
-const content_block = document.getElementById("content_block");
-
+const menuList = document.querySelector("#menuList");
+const btn = document.querySelector(".dropdown");
 
 // Function to toggle the menulist
 function togglemenu() {
   menuList.classList.toggle("toggle");
 }
+
+btn.addEventListener("click", togglemenu);
