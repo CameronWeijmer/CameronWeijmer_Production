@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
 body {
   background-image: url("../assets/background.jpg");
   background-size: cover;
@@ -52,8 +53,8 @@ nav ul li a {
 
 .logo {
   font-size: 1.5rem;
+  color: #1498d5;
   text-transform: capitalize;
-  color: #fff;
   letter-spacing: 1px;
 }
 
@@ -75,8 +76,8 @@ nav ul li a {
   min-height: 100vh;
   padding-top: 14rem;
   align-items: center;
-  word-spacing: 0.25rem;
-  letter-spacing: 0.25rem;
+  word-spacing: .15rem;
+  letter-spacing: .15rem;
   font-size: 1.75rem;
   color: #fff;
 }
@@ -141,7 +142,7 @@ button {
 
 /* Project Section */
 
-#section_project{
+#section_project {
   background-color: #fff;
 }
 
@@ -204,6 +205,8 @@ button {
   .content {
     min-height: 500px;
     text-align: center;
+    word-spacing: normal;
+    letter-spacing: normal;
   }
 
   .dropdown {
@@ -211,10 +214,8 @@ button {
   }
 
   .name {
-    position: relative;
     font-size: 2rem;
-    padding-left: 1rem;
-    padding-top: 0rem;
+    padding-bottom: 10px;
   }
 
   .br_none {
@@ -238,7 +239,9 @@ button {
   }
 
   .desc_p {
-    font-size: 0.5rem;
+    font-size: 20px;
+    border-top: 2px solid #fff;
+    padding-top: 10px;
   }
 
   .button {
@@ -247,4 +250,9 @@ button {
     top: 60%;
     right: 5%;
   }
+
+  #section_project {
+    margin-top: 300px;
+  }
+
 }
