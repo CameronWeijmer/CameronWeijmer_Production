@@ -41,7 +41,6 @@ nav ul {
 }
 
 nav ul li {
-  /* letter-spacing: 0.25rem; */
   margin: 10px 20px;
 }
 
@@ -74,7 +73,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
+  padding-top: 14rem;
   align-items: center;
   word-spacing: 0.25rem;
   letter-spacing: 0.25rem;
@@ -130,13 +129,23 @@ button {
 .desc {
   display: flex;
   justify-content: left;
-  padding-left: 5rem;
-  padding-top: 1rem;
+  padding-top: 20px;
 }
 
-#desc_p {
+.desc_p {
   font-size: 1.25rem;
+  border-top: 3px solid #fff;
+  padding-top: 20px;
 }
+
+
+/* Project Section */
+
+#section_project{
+  background-color: #fff;
+}
+
+/* Responsiveness */
 
 @media only screen and (max-width: 760px) {
   nav {
@@ -146,9 +155,9 @@ button {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   body {
-    min-height: 100vh;
+    min-height: 110vh;
   }
 
   nav {
@@ -228,7 +237,7 @@ button {
     height: 180px !important;
   }
 
-  #desc_p {
+  .desc_p {
     font-size: 0.5rem;
   }
 
