@@ -74,7 +74,7 @@ nav ul li a {
   background: #fff;
 }
 
-.content {
+#content {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -84,6 +84,7 @@ nav ul li a {
   letter-spacing: .15rem;
   font-size: 1.75rem;
   color: #fff;
+  visibility: visible;
 }
 
 span {
@@ -131,7 +132,7 @@ button {
   color: #1498d5;
 }
 
-.desc {
+#desc {
   display: flex;
   justify-content: left;
   padding-top: 20px;
@@ -157,9 +158,6 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-  }
-
-  .nav_div {
     background-color: #ffffff00;
   }
 
@@ -167,13 +165,15 @@ button {
 
 @media only screen and (max-width: 600px) {
   body {
-    min-height: 110vh;
+    min-height: 100vh;
   }
 
   nav {
+    position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 40px;
+    background-color: #ffffff00;
   }
 
   .logo {
@@ -211,11 +211,12 @@ button {
     filter: invert(1);
   }
 
-  .content {
+  #content {
     min-height: 500px;
     text-align: center;
     word-spacing: normal;
     letter-spacing: normal;
+    visibility: visible;
   }
 
   .dropdown {
@@ -231,7 +232,7 @@ button {
     display: none;
   }
 
-  .desc {
+  #desc {
     position: relative;
     top: 5%;
     left: 1%;
@@ -261,7 +262,7 @@ button {
   }
 
   #section_project {
-    margin-top: 300px;
+    margin-top: 345px;
   }
 
 }
