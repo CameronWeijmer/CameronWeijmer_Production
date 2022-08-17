@@ -24,7 +24,6 @@ nav {
   margin: auto;
   padding: 20px;
   background-color: #ffffff08;
-
 }
 
 nav ul {
@@ -80,8 +79,8 @@ nav ul li a {
   min-height: 100vh;
   padding-top: 20rem;
   align-items: center;
-  word-spacing: .15rem;
-  letter-spacing: .15rem;
+  word-spacing: 0.15rem;
+  letter-spacing: 0.15rem;
   font-size: 1.75rem;
   color: #fff;
   visibility: visible;
@@ -144,7 +143,6 @@ button {
   padding-top: 20px;
 }
 
-
 /* Project Section */
 
 #section_project {
@@ -160,7 +158,6 @@ button {
     gap: 40px;
     background-color: #ffffff00;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -200,7 +197,7 @@ button {
     overflow: hidden;
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
 
   #img_menu_icon {
@@ -248,6 +245,10 @@ button {
     height: 180px !important;
   }
 
+  .hide-content {
+    visibility: hidden !important;
+  }
+
   .desc_p {
     font-size: 20px;
     border-top: 2px solid #fff;
@@ -264,5 +265,4 @@ button {
   #section_project {
     margin-top: 345px;
   }
-
 }

@@ -32,10 +32,9 @@ const about_name = document.getElementById("content");
 // Function to toggle the menulist
 function togglemenu() {
   menuList.classList.toggle("toggle");
-  about_name.style.visibility = "hidden";
+  about_name.classList.toggle("hide-content");
 }
 
 btn.addEventListener("click", () => {
-  about_name.style.visibility = "visible";
-  console.log("clicked");
+  togglemenu();
 });
