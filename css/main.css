@@ -15,12 +15,16 @@ body {
 }
 
 nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  min-width: 100%;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1800px;
   margin: auto;
   padding: 20px;
+  background-color: #ffffff08;
+
 }
 
 nav ul {
@@ -74,7 +78,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 14rem;
+  padding-top: 20rem;
   align-items: center;
   word-spacing: .15rem;
   letter-spacing: .15rem;
@@ -154,6 +158,11 @@ button {
     flex-wrap: wrap;
     gap: 40px;
   }
+
+  .nav_div {
+    background-color: #ffffff00;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
