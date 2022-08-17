@@ -27,10 +27,15 @@ function done() {
 
 const menuList = document.querySelector("#menuList");
 const btn = document.querySelector(".dropdown");
+const about_name = document.getElementById("content");
 
 // Function to toggle the menulist
 function togglemenu() {
   menuList.classList.toggle("toggle");
+  about_name.style.visibility = "hidden";
 }
 
-btn.addEventListener("click", togglemenu);
+btn.addEventListener("click", () => {
+  about_name.style.visibility = "visible";
+  console.log("clicked");
+});
