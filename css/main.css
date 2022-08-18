@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 04c9081c96d8bd8eddbf7040a9af77d30198731a
 html {
   scroll-behavior: smooth;
 }
@@ -49,6 +53,11 @@ nav a {
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 04c9081c96d8bd8eddbf7040a9af77d30198731a
 nav a:hover:after {
   width: 100%;
   left: 0;
@@ -76,13 +85,18 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
   font-size: 18px;
   text-decoration: none;
+  font-weight: 700;
+}
+
+#nav_a_id {
+  color: #ffff;
 }
 
 .logo {
   font-size: 1.5rem;
+  font-weight: 900;
   color: #1498d5;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -167,6 +181,15 @@ button {
   padding-top: 20px;
 }
 
+/* About Section */
+
+
+#about {
+  padding-top: 1000px;
+  background-color: #1498d5;
+}
+
+/* end of About Section */
 /* Project Section */
 
 #projects {
@@ -283,6 +306,7 @@ button {
     grid-row: 1 / 2;
     justify-self: left;
     align-self: center;
+    padding: 0rem 0rem 0rem 2rem;
   }
 
   .menuicon {
@@ -302,7 +326,7 @@ button {
     overflow: hidden;
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   #img_menu_icon {
@@ -321,8 +345,8 @@ button {
     visibility: visible;
   }
 
-  .dropdown {
-    visibility: visible;
+  .menuicon .dropdown {
+    visibility: visible !important;
   }
 
   .name {
@@ -347,7 +371,7 @@ button {
   }
 
   .toggle {
-    height: 180px !important;
+    height: 275px !important;
   }
 
   .hide-content {

@@ -9,18 +9,18 @@
     <title>Cameron Weijmer</title>
 </head>
 
-<body>
+<body onscroll="onScroll()">
     <section id="main">
         <div class="background_img">
             <!-- NAVIGATION -->
             <div class="nav_div">
-                <nav>
+                <nav id="nav_id" class="toAnimate">
                     <h1 class="logo">CW</h1>
                     <ul id="menuList">
-                        <li><a id="aboutme" href="#main">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#footer">Legal Notice</a></li>
+                        <li><a id="nav_a_id1" href="#about">About</a></li>
+                        <li><a id="nav_a_id2" href="#projects">Projects</a></li>
+                        <li><a id="nav_a_id3" href="#contact">Contact</a></li>
+                        <li><a id="nav_a_id4" href="#footer">Legal Notice</a></li>
                     </ul>
                     <div class="menuicon">
                         <div class="dropdown">
@@ -39,6 +39,12 @@
             </div>
         </div>
         <!-- end of navigation -->
+
+        <!-- ABOUT -->
+        <section id="about">
+
+        </section>
+        <!-- end of about -->
         <!-- PORTFOLIO -->
         <section id="projects">
             <div class="projects container">
@@ -99,16 +105,16 @@
         <div class="wrapper">
             <p id="footer_link"><a href="./policy/cameron_weijmer_policy.pdf">Policy</a></p>
             <p id=" footer_link"><a href="legalnotice.html">Legal Notice</a></p>
-            <p id=" footer_link"><a href="#main">About</a></p>
+            <p id=" footer_link"><a href="#about">About</a></p>
             <p id=" footer_link"><a href="#projects">Projects</a></p>
             <p id=" footer_link"><a href="#contact">Contact</a></p>
+            <p id=" footer_link"><a href="#main">Home</a></p>
         </div>
         <div class="copyright">
             <p>© Copyright Cameron Weijmer 2022.</p>
         </div>
     </section>
     <!-- end of footer -->
-    </div>
     </section>
     <script src="./javascript/main.js"></script>
 </body>
