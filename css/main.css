@@ -53,11 +53,6 @@ nav a {
   position: relative;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 04c9081c96d8bd8eddbf7040a9af77d30198731a
 nav a:hover:after {
   width: 100%;
   left: 0;
