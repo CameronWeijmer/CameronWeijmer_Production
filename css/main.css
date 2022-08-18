@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -52,12 +52,12 @@ nav a {
 
 
 
-nav a:hover:after { 
-  width: 100%; 
-  left: 0; 
+nav a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
-nav a:after{
+nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -65,7 +65,7 @@ nav a:after{
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #1498d5; 
+  background: #1498d5;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -79,9 +79,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
   font-size: 18px;
   text-decoration: none;
+}
+
+#nav_a_id{
+  color: #ffff;
 }
 
 .logo {
@@ -309,6 +312,7 @@ button {
     grid-row: 1 / 2;
     justify-self: left;
     align-self: center;
+    padding: 0rem 0rem 0rem 2rem;
   }
 
   .menuicon {
@@ -328,7 +332,7 @@ button {
     overflow: hidden;
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   #img_menu_icon {
@@ -347,8 +351,8 @@ button {
     visibility: visible;
   }
 
-  .dropdown {
-    visibility: visible;
+  .menuicon .dropdown {
+    visibility: visible !important;
   }
 
   .name {
@@ -373,7 +377,7 @@ button {
   }
 
   .toggle {
-    height: 180px !important;
+    height: 275px !important;
   }
 
   .hide-content {
