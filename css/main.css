@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 04c9081c96d8bd8eddbf7040a9af77d30198731a
 html {
   scroll-behavior: smooth;
 }
@@ -53,11 +50,6 @@ nav a {
   position: relative;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 04c9081c96d8bd8eddbf7040a9af77d30198731a
 nav a:hover:after {
   width: 100%;
   left: 0;
@@ -94,7 +86,7 @@ nav ul li a {
   color: #ffff;
 }
 
-.fadeIn{
+.fadeIn {
   background-color: rgba(0, 0, 0, 0.298);
   transition: background-color 1s ease-in-out;
 }
@@ -239,10 +231,10 @@ button {
 }
 
 .project-item:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.project-img > img {
+.project-img>img {
   width: 100%;
   object-fit: cover;
 }
@@ -251,13 +243,14 @@ button {
   padding: 20px;
 }
 
-.project-info > h1 {
+.project-info>h1 {
   font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 700;
   color: #fff;
 }
-.project-info > h2 {
+
+.project-info>h2 {
   font-size: 1rem;
   text-transform: capitalize;
   font-weight: 400;
