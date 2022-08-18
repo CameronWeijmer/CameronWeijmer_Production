@@ -86,11 +86,6 @@ nav ul li a {
   color: #ffff;
 }
 
-.fadeIn {
-  background-color: rgba(0, 0, 0, 0.298);
-  transition: background-color 1s ease-in-out;
-}
-
 .logo {
   font-size: 1.5rem;
   font-weight: 900;
@@ -191,7 +186,7 @@ button {
 /* Project Section */
 
 #projects {
-  padding-top: 200px;
+  padding-top: 100px;
   background-color: #fff;
 }
 
@@ -203,10 +198,42 @@ button {
 }
 
 #projects .projects-header h1 {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   text-align: center;
   font-weight: 400;
   font-size: 3rem;
+}
+
+.lang_html, .lang_css,
+.lang_js, .lang_json,
+.lang_tailwind, .lang_nodejs {
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.lang_tailwind, .lang_css,
+.lang_json, .lang_js {
+  margin-left: .25rem;
+}
+
+.lang_html {
+  background-color: #FF5733
+}
+
+.lang_css, .lang_tailwind {
+  background-color: #264de4;
+}
+
+.lang_js {
+  background-color: #e8c012;
+}
+
+.lang_json {
+  background-color: #3F3E42
+}
+
+.lang_nodejs {
+  background-color: #3C873A;
 }
 
 .all-projects {
@@ -214,7 +241,7 @@ button {
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
   padding: 10px;
 }
 
@@ -248,10 +275,11 @@ button {
   text-transform: capitalize;
   font-weight: 700;
   color: #fff;
+  margin-bottom: 1rem;
 }
 
 .project-info>h2 {
-  font-size: 1rem;
+  font-size: .75rem;
   text-transform: capitalize;
   font-weight: 400;
   margin-top: 10px;
