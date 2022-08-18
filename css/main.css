@@ -89,6 +89,7 @@ nav ul li a {
   color: #1498d5;
   text-transform: capitalize;
   letter-spacing: 1px;
+  padding: 1.25rem 0rem 0rem 2rem;
 }
 
 .menuicon {
