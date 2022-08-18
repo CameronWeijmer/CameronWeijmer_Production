@@ -38,3 +38,40 @@ function togglemenu() {
 btn.addEventListener("click", () => {
   togglemenu();
 });
+
+// navbar scroll
+
+function onScroll() {
+  if (window.scrollY >= 900) {
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
+    element1.style.color = "#000";
+    element2.style.color = "#000";
+    element3.style.color = "#000";
+    element4.style.color = "#000";
+  }
+
+  if (window.scrollY >= 2550) {
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
+    element1.style.color = "#fff";
+    element2.style.color = "#fff";
+    element3.style.color = "#fff";
+    element4.style.color = "#fff";
+  }
+
+  if (window.scrollY < 900) {
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
+    element1.style.color = "#fff";
+    element2.style.color = "#fff";
+    element3.style.color = "#fff";
+    element4.style.color = "#fff";
+  }
+}
