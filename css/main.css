@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -50,14 +49,12 @@ nav a {
   position: relative;
 }
 
-
-
-nav a:hover:after { 
-  width: 100%; 
-  left: 0; 
+nav a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
-nav a:after{
+nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -65,7 +62,7 @@ nav a:after{
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #1498d5; 
+  background: #1498d5;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -185,82 +182,60 @@ button {
 
 #projects .projects-header h1 {
   margin-bottom: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
-#projects .all-projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#projects .project-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-#projects .project-info {
-  padding: 5rem 15rem 5rem 15rem;
-  flex-basis: 50%;
-  height: 100%;
+.all-projects {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  color: white;
+  gap: 20px;
+  padding: 10px;
 }
 
-#projects .project-info h1 {
-  font-size: 4rem;
-  font-weight: 500;
+.project-item {
+  border: 1px solid #5555;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  max-width: 450px;
+  min-width: 400px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  min-height: 350px;
+  background: #1498d5;
 }
 
-#projects .project-info h2 {
-  font-size: 0.75rem;
-  font-weight: 500;
-  margin-top: 10px;
+.project-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
 }
 
-#projects .project-info p {
-  color: white;
-}
-
-#projects .project-img {
-  flex-basis: 50%;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-}
-
-#projects .project-img:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
+.project-img > img {
   width: 100%;
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  opacity: 0.7;
+  object-fit: cover;
 }
 
-#projects .project-img img {
-  transition: 0.3s ease transform;
+.project-info {
+  padding: 20px;
 }
 
-#projects .project-item:hover .project-img img {
-  transform: scale(1.1);
+.project-info > h1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #fff;
+}
+.project-info > h2 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #fff;
 }
 
 /* End Projects section */
-
 
 /* contact section */
 
@@ -276,7 +251,6 @@ button {
   background-color: #fff;
   padding-top: 50px;
 }
-
 
 /* end of footer */
 
@@ -400,4 +374,11 @@ button {
   /* #portfolio {
     margin-top: 345px;
   } */
+}
+
+@media only screen and (max-width: 500px) {
+  .project-item {
+    min-width: 0;
+    width: 100%;
+  }
 }
