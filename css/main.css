@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
-body {
 
-  background-color: #000;
+html{
+  scroll-behavior: smooth;
 }
 
 * {
@@ -10,6 +10,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #000;
 }
 
 .background_img {
@@ -37,11 +41,33 @@ nav ul {
 }
 
 nav a {
-  transition: color 0.5s linear;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
-nav a:hover {
-  color: #1498d5;
+
+
+nav a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+nav a:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #1498d5; 
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
 nav ul {
@@ -131,10 +157,6 @@ button {
   }
 }
 
-#aboutme {
-  color: #1498d5;
-}
-
 #desc {
   display: flex;
   justify-content: left;
@@ -169,14 +191,14 @@ button {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #projects .project-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 80%;
   margin: 20px auto;
   overflow: hidden;
@@ -190,7 +212,7 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   color: white;
 }
@@ -201,7 +223,7 @@ button {
 }
 
 #projects .project-info h2 {
-  font-size: 1.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   margin-top: 10px;
 }
@@ -238,6 +260,24 @@ button {
 
 /* End Projects section */
 
+
+/* contact section */
+
+#contact {
+  padding-top: 1000px;
+}
+
+/* end of contact section */
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+
+/* end of footer */
 
 /* Responsiveness */
 
