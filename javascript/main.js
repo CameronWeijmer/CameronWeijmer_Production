@@ -44,28 +44,6 @@ btn.addEventListener("click", () => {
 function onScroll() {
   console.log(window.scrollY);
 
-  if (window.scrollY > 1) {
-    const navigation = document.getElementById("nav_id");
-    navigation.classList.remove("toAnimate");
-    navigation.classList.add("fadeIn");
-  }
-
-  if (window.scrollY <= 0) {
-    const navigation = document.getElementById("nav_id");
-    navigation.classList.remove("fadeIn");
-  }
-
-  // if (window.scrollY >= 900) {
-  //   const element1 = document.getElementById("nav_a_id1");
-  //   const element2 = document.getElementById("nav_a_id2");
-  //   const element3 = document.getElementById("nav_a_id3");
-  //   const element4 = document.getElementById("nav_a_id4");
-  //   element1.style.color = "#000";
-  //   element2.style.color = "#000";
-  //   element3.style.color = "#000";
-  //   element4.style.color = "#000";
-  // }
-
   if (window.scrollY >= 1900) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
