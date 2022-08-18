@@ -88,6 +88,11 @@ nav ul li a {
   color: #ffff;
 }
 
+.fadeIn{
+  background-color: rgba(0, 0, 0, 0.298);
+  transition: background-color 1s ease-in-out;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: 900;
@@ -95,6 +100,7 @@ nav ul li a {
   text-transform: capitalize;
   letter-spacing: 1px;
   padding: 1.25rem 0rem 0rem 2rem;
+  cursor: pointer;
 }
 
 .menuicon {
@@ -187,6 +193,7 @@ button {
 /* Project Section */
 
 #projects {
+  padding-top: 200px;
   background-color: #fff;
 }
 
