@@ -10,81 +10,104 @@
 </head>
 
 <body>
-    <div class="background_img">
-        <!-- NAVIGATION -->
-        <div class="nav_div">
-            <nav>
-                <h1 class="logo">CW</h1>
-                <ul id="menuList">
-                    <li><a id="aboutme" href="index.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="policy.html">Policy</a></li>
-                </ul>
-                <div class="menuicon">
-                    <div class="dropdown">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+    <section id="main">
+        <div class="background_img">
+            <!-- NAVIGATION -->
+            <div class="nav_div">
+                <nav>
+                    <h1 class="logo">CW</h1>
+                    <ul id="menuList">
+                        <li><a id="aboutme" href="#main">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#footer">Legal Notice</a></li>
+                    </ul>
+                    <div class="menuicon">
+                        <div class="dropdown">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
+                </nav>
+            </div>
+            <div id="content">
+                <h1 class="name">Cameron Weijmer</h1>
+                <div id="desc">
+                    <p class="desc_p">Application Developer</p>
                 </div>
-            </nav>
-        </div>
-        <div id="content">
-            <h1 class="name">Cameron Weijmer</h1>
-            <div id="desc">
-                <p class="desc_p">Application Developer</p>
             </div>
         </div>
-    </div>
-    <!-- end of navigation -->
-    <!-- PORTFOLIO -->
-    <section id="projects">
-        <div class="projects container">
-            <div class="projects-header">
-                <h1 class="section-title">Recent <span>Projects</span></h1>
+        <!-- end of navigation -->
+        <!-- PORTFOLIO -->
+        <section id="projects">
+            <div class="projects container">
+                <div class="projects-header">
+                    <h1 class="section-title">Recent <span>Projects</span></h1>
+                </div>
+                <div class="all-projects">
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Crypto Tracker</h1>
+                            <h2>HTML CSS JS HEART</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="./assets/cryptowebsite.png" width="100%" alt="img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Quotes API</h1>
+                            <h2>HTML CSS NODEJS JSON JS HEART</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="./assets/quotes.png" width="100%" alt="img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Drone Tribute</h1>
+                            <h2>HTML TAILWINDCSS JS HEART</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="./assets/dronetribute.png" width="100%" alt="img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Portfolio</h1>
+                            <h2>HTML CSS JS HEART</h2>
+                        </div>
+                        <div class="project-img">
+                            <img src="./assets/myportfolio.png" width="100%" alt="img">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="all-projects">
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Crypto Tracker</h1>
-                        <h2>HTML CSS JS HEART</h2>
-                    </div>
-                    <div class="project-img">
-                        <img src="./assets/cryptowebsite.png" width="100%" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Quotes API</h1>
-                        <h2>HTML CSS NODEJS JSON JS HEART</h2>
-                    </div>
-                    <div class="project-img">
-                        <img src="./assets/quotes.png" width="100%" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Drone Tribute</h1>
-                        <h2>HTML TAILWINDCSS JS HEART</h2>
-                    </div>
-                    <div class="project-img">
-                        <img src="./assets/dronetribute.png" width="100%" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Portfolio</h1>
-                        <h2>HTML CSS JS HEART</h2>
-                    </div>
-                    <div class="project-img">
-                        <img src="./assets/myportfolio.png" width="100%" alt="img">
-                    </div>
-                </div>
-            </div>
+        </section>
+    </section>
+    <!-- End of portfolio -->
+    <!-- start of contact form -->
+    <!-- end of contact form -->
+    <section id="contact" class="background_img">
+        <div class="background_img">
+
         </div>
     </section>
-    <!-- End Projects Section -->
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="wrapper">
+            <p id="footer_link"><a href="./policy/cameron_weijmer_policy.pdf">Policy</a></p>
+            <p id=" footer_link"><a href="legalnotice.html">Legal Notice</a></p>
+            <p id=" footer_link"><a href="#main">About</a></p>
+            <p id=" footer_link"><a href="#projects">Projects</a></p>
+            <p id=" footer_link"><a href="#contact">Contact</a></p>
+        </div>
+        <div class="copyright">
+            <p>© Copyright Cameron Weijmer 2022.</p>
+        </div>
+    </section>
+    <!-- end of footer -->
     </div>
     </section>
     <script src="./javascript/main.js"></script>
