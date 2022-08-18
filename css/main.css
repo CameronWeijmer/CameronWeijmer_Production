@@ -81,14 +81,16 @@ nav ul li {
 nav ul li a {
   font-size: 18px;
   text-decoration: none;
+  font-weight: 700;
 }
 
-#nav_a_id{
+#nav_a_id {
   color: #ffff;
 }
 
 .logo {
   font-size: 1.5rem;
+  font-weight: 900;
   color: #1498d5;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -173,6 +175,15 @@ button {
   padding-top: 20px;
 }
 
+/* About Section */
+
+
+#about {
+  padding-top: 1000px;
+  background-color: #1498d5;
+}
+
+/* end of About Section */
 /* Project Section */
 
 #projects {
