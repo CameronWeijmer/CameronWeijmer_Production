@@ -88,7 +88,7 @@ nav ul li a {
 
 .logo {
   font-family: 'Rock Salt', cursive;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 900;
   color: #1498d5;
   text-transform: capitalize;
@@ -180,8 +180,26 @@ button {
 
 
 #about {
-  padding-top: 1000px;
+  padding-top: 200px;
   background-color: #1498d5;
+}
+
+#about .about_img{
+  border-radius: 50%;
+}
+
+#about .info {
+  display: flex;
+  flex-direction: row;
+}
+
+#about h2 {
+  color: #000;
+}
+
+#about .info p {
+  line-height: 270%;
+  color: #fff;
 }
 
 /* end of About Section */
