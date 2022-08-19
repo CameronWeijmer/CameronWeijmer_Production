@@ -44,12 +44,24 @@ btn.addEventListener("click", () => {
 function onScroll() {
   console.log(window.scrollY);
 
+  if (window.scrollY < 900) {
+    const logo = document.getElementById("home_logo");
+    logo.style.color = "#1498d5";
+  }
+
+  if (window.scrollY >= 900) {
+    const logo = document.getElementById("home_logo");
+    logo.style.color = "#000";
+  }
+
   if (window.scrollY >= 1900) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
     const element4 = document.getElementById("nav_a_id4");
     const element5 = document.getElementById("nav_a_id5");
+    const logo = document.getElementById("home_logo");
+    logo.style.color = "#1498d5";
     element1.style.color = "#000";
     element2.style.color = "#000";
     element3.style.color = "#000";
@@ -57,7 +69,7 @@ function onScroll() {
     element5.style.color = "#000";
   }
 
-  if (window.scrollY >= 3570) {
+  if (window.scrollY >= 3103) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
