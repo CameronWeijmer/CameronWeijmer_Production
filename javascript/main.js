@@ -54,7 +54,7 @@ function onScroll() {
     logo.style.color = "#000";
   }
 
-  if (window.scrollY >= 1900) {
+  if (window.scrollY >= 1732) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
@@ -69,7 +69,7 @@ function onScroll() {
     element5.style.color = "#000";
   }
 
-  if (window.scrollY >= 3103) {
+  if (window.scrollY >= 2951) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
