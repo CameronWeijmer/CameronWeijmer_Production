@@ -46,7 +46,7 @@ function onScroll() {
 
   if (window.scrollY < 900) {
     const logo = document.getElementById("home_logo");
-    logo.style.color = "#1498d5";
+    logo.style.color = "#fff";
   }
 
   if (window.scrollY >= 900) {
@@ -61,7 +61,7 @@ function onScroll() {
     const element4 = document.getElementById("nav_a_id4");
     const element5 = document.getElementById("nav_a_id5");
     const logo = document.getElementById("home_logo");
-    logo.style.color = "#1498d5";
+    logo.style.color = "#f300b4";
     element1.style.color = "#000";
     element2.style.color = "#000";
     element3.style.color = "#000";
