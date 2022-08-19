@@ -184,6 +184,15 @@ button {
   padding-top: 20px;
 }
 
+#main .arrow_div{
+  padding-top: 150px;
+}
+
+#main #arrow_img{
+  filter: invert(1);
+  cursor: pointer;
+}
+
 /* About Section */
 
 #about {
@@ -338,7 +347,7 @@ button {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.project-img > img {
+.project-img>img {
   width: 100%;
   object-fit: cover;
 }
@@ -347,7 +356,7 @@ button {
   padding: 20px;
 }
 
-.project-info > h1 {
+.project-info>h1 {
   font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 700;
@@ -355,7 +364,7 @@ button {
   margin-bottom: 1rem;
 }
 
-.project-info > h2 {
+.project-info>h2 {
   font-size: 0.75rem;
   text-transform: capitalize;
   font-weight: 400;
@@ -376,14 +385,15 @@ button {
   padding: 100px 0px;
 }
 
-.top-bar > .title {
+.top-bar>.title {
   font-size: clamp(1rem, 5vw + 2rem, 5rem);
   text-transform: capitalize;
   color: #fff;
   font-weight: 400;
   text-align: center;
 }
-.top-bar > .title-p {
+
+.top-bar>.title-p {
   font-size: clamp(1rem, 5vw + 2rem, 5rem);
   text-transform: capitalize;
   color: #f300b4;
@@ -401,12 +411,12 @@ button {
   max-width: 800px;
 }
 
-.form > .form-control {
+.form>.form-control {
   width: 100%;
   margin: 20px 0px;
 }
 
-.form > .form-control > input {
+.form>.form-control>input {
   padding: 10px 0px;
   border: 1px solid rgba(255, 255, 255, 0.37);
   background: #ff00bb63;
@@ -418,7 +428,7 @@ button {
   caret-color: #1498d5;
 }
 
-.form > .form-control > textarea {
+.form>.form-control>textarea {
   padding: 10px 0px;
   border: 1px solid rgba(255, 255, 255, 0.37);
   background: #00aeff65;
@@ -429,7 +439,8 @@ button {
   color: #fff;
   caret-color: #f300b4;
 }
-.form > .form-control > .submit-btn {
+
+.form>.form-control>.submit-btn {
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: 700;
@@ -440,18 +451,18 @@ button {
   transition: .3s ease-in-out;
 }
 
-.form > .form-control > .submit-btn:hover {
+.form>.form-control>.submit-btn:hover {
   background: #1498d5;
   color: #fff;
 }
 
-::placeholder{
+::placeholder {
   transition: .5s ease-in-out;
   color: #fff;
   opacity: 1;
 }
 
-:focus::placeholder{
+:focus::placeholder {
   opacity: 0;
 }
 
@@ -590,6 +601,17 @@ button {
   .background_img {
     min-height: 100vh;
   }
+
+  #main .arrow_div{
+    padding-top: 80px;
+  }
+
+  #about {
+    padding-top: 100px;
+    background-color: #1498d5;
+  }
+  
+  
 
   /* #portfolio {
     margin-top: 345px;
