@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="./css/main.css">
     <title>Cameron Weijmer</title>
 </head>
@@ -15,12 +16,13 @@
             <!-- NAVIGATION -->
             <div class="nav_div">
                 <nav id="nav_id" class="toAnimate">
-                    <h1 class="logo">CW</h1>
+                    <h1 id="home_logo" class="logo" href="#main">Cameron</h1>
                     <ul id="menuList">
-                        <li><a id="nav_a_id1" href="#about">About</a></li>
-                        <li><a id="nav_a_id2" href="#projects">Projects</a></li>
-                        <li><a id="nav_a_id3" href="#contact">Contact</a></li>
-                        <li><a id="nav_a_id4" href="#footer">Legal Notice</a></li>
+                        <li><a class="nav_list" id="nav_a_id1" href="#main">Home</a></li>
+                        <li><a class="nav_list" id="nav_a_id2" href="#about">About</a></li>
+                        <li><a class="nav_list" id="nav_a_id3" href="#projects">Projects</a></li>
+                        <li><a class="nav_list" id="nav_a_id4" href="#contact">Contact</a></li>
+                        <li><a class="nav_list" id="nav_a_id5" href="#footer">Legal</a></li>
                     </ul>
                     <div class="menuicon">
                         <div class="dropdown">
@@ -38,18 +40,40 @@
                 </div>
             </div>
         </div>
+        se
         <!-- end of navigation -->
 
         <!-- ABOUT -->
         <section id="about">
-
+            <div class="about container">
+                <div class="col-right">
+                    <div class="title_img">
+                        <h1 class="section-title">About<span id="me_span">Me</span></h1>
+                        <div class="about-img">
+                            <img src="./assets/aboutpic.jpg" alt="Picture of Cameron Weijmer">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <!-- a little about me -->
+                        <p>I am a full stack web developer with a passion for creating beautiful, functional, and
+                            user-friendly websites.<br class="none"><br>I have a strong background in web development
+                            and
+                            have worked
+                            with a variety of technologies and languages.</p>
+                        <p>I'm currently learning SAP ABAP.</p>
+                        <p>I really like programming and being creative. I think computer science is the future, so I
+                            always want to
+                            develop my skills.</p>
+                        <p> I love to play tennis and i am playing piano and ukulele.</p>
+                    </div>
+                </div>
         </section>
         <!-- end of about -->
         <!-- PORTFOLIO -->
         <section id="projects">
             <div class="projects container">
                 <div class="projects-header">
-                    <h1 class="section-title">Recent <span>Projects</span></h1>
+                    <h1 class="section-title">Recent <span id="project_span">Projects</span></h1>
                 </div>
                 <div class="all-projects">
                     <div class="project-item">
@@ -58,7 +82,8 @@
                         </div>
                         <div class="project-info">
                             <h1>Crypto Tracker</h1>
-                            <h2>HTML CSS JS HEART</h2>
+                            <h2><span class="lang_html">HTML </span><span class="lang_css">CSS </span><span
+                                    class="lang_js">JavaScript</span></h2>
                         </div>
                     </div>
                     <div class="project-item">
@@ -67,7 +92,7 @@
                         </div>
                         <div class="project-info">
                             <h1>Quotes API</h1>
-                            <h2>HTML CSS NODEJS JSON JS HEART</h2>
+                            <h2><span class="lang_nodejs">NODEJS </span><span class="lang_json">JSON</span></h2>
                         </div>
                     </div>
                     <div class="project-item">
@@ -75,8 +100,9 @@
                             <img src="./assets/dronetribute.png" width="100%" alt="img">
                         </div>
                         <div class="project-info">
-                            <h1>Drone Tribute</h1>
-                            <h2>HTML TAILWINDCSS JS HEART</h2>
+                            <h1>Drone Tribute Galerie</h1>
+                            <h2><span class="lang_html">HTML </span><span class="lang_tailwind">TAILWIND </span><span
+                                    class="lang_js">JavaScript</span></h2>
                         </div>
                     </div>
                     <div class="project-item">
@@ -84,8 +110,9 @@
                             <img src="./assets/myportfolio.png" width="100%" alt="img">
                         </div>
                         <div class="project-info">
-                            <h1>Portfolio</h1>
-                            <h2>HTML CSS JS HEART</h2>
+                            <h1>Personal Portfolio</h1>
+                            <h2><span class="lang_html">HTML </span><span class="lang_css">CSS </span><span
+                                    class="lang_js">JavaScript</span></h2>
                         </div>
                     </div>
                 </div>
@@ -94,12 +121,41 @@
     </section>
     <!-- End of portfolio -->
     <!-- start of contact form -->
-    <!-- end of contact form -->
     <section id="contact" class="background_img">
-        <div class="background_img">
-
+        <div class="contact_wrapper">
+            <div class="content_wrapper">
+                <h1> <span id="span_wantto"><em class="em_none">WANT TO </em></span>
+                    <span id="contact_me"><em class="em_none1">CONTACT ME?</em></span>
+                </h1>
+            </div>
+            <p> <span id="contact_span"> Whether you're interested in working with</span> <span id="contact_span2"> me
+                    or just want to say hello, I'd love to hear from you!</span></p>
+        </div>
+        <div class="contact_form">
+            <span id="contact_span">
+                <form method="post" role="form">
+                    <div>
+                        <input type="text" class="form_control" id="name" name="name" placeholder="NAME" required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" class="form_control" placeholder="EMAIL" required>
+                    </div>
+                    <div>
+                        <input type="tel" class="form_control" id="phone" name="phone" placeholder="PHONE">
+                    </div>
+                    <div>
+                        <textarea minlength="10" id="message" class="form_control" name="message" placeholder="MESSAGE"
+                            required></textarea>
+                    </div>
+                    <div class="contact_btn">
+                        <button type="submit" id="submit" name="submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+                <br>
+            </span>
         </div>
     </section>
+    <!-- end of contact form -->
     <!-- FOOTER -->
     <section id="footer">
         <div class="wrapper">
