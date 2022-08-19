@@ -515,7 +515,12 @@ button {
   }
 
   /* end of about */
+/* start of projects */
+#projects {
+  padding-top: 10px;
+}
 
+/* end of projects */
 }
 
 @media only screen and (max-width: 500px) {
