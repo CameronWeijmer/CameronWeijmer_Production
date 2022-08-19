@@ -12,6 +12,14 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  -user-drag: none;
+}
+
 body {
   background-color: #000;
 }
@@ -233,8 +241,18 @@ button {
   padding-bottom: 150px;
 }
 
+#about #me_span {
+  color: #fff;
+  padding-left: 1rem;
+}
+
 /* end of About Section */
 /* Project Section */
+
+#projects #project_span {
+  color: #1498d5;
+  padding-left: 1rem;
+}
 
 #projects {
   padding-top: 100px;
@@ -341,9 +359,61 @@ button {
 
 /* contact section */
 
-#contact {
-  padding-top: 1000px;
+#contact .contact_form {
+  padding: 0px 15px 0px 15px;
 }
+
+#contact .form_control {
+  border: 2px solid rgba(0, 0, 0, 0.27);
+  width: 100%;
+  max-width: 100%;
+  height: 3em;
+  font-size: 16px;
+  padding: 1em;
+  margin: 0.5em 0 2em 0;
+  font-weight: bold;
+}
+
+#contact label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#contact textarea {
+  min-height: 10em;
+}
+
+
+
+#contact #submit {
+  outline: none;
+  padding: 12px;
+  min-width: 200px;
+  border-radius: 2px;
+  border: 2px solid #ff6363;
+  text-align: center;
+  font-size: 1em;
+  color: #ff6363;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#contact #submit:hover {
+  background-color: #ff6363;
+  color: white;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 
 /* end of contact section */
 
@@ -515,12 +585,12 @@ button {
   }
 
   /* end of about */
-/* start of projects */
-#projects {
-  padding-top: 10px;
-}
+  /* start of projects */
+  #projects {
+    padding-top: 10px;
+  }
 
-/* end of projects */
+  /* end of projects */
 }
 
 @media only screen and (max-width: 500px) {
