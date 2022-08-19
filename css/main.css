@@ -360,7 +360,11 @@ button {
 /* contact section */
 
 #contact .contact_form {
-  padding: 0px 15px 0px 15px;
+  margin: 0px auto;
+  border-radius: 20px;
+  max-width: 900px;
+  min-width: 600px;
+  padding-bottom: 50px;
 }
 
 #contact .form_control {
@@ -370,8 +374,18 @@ button {
   height: 3em;
   font-size: 16px;
   padding: 1em;
-  margin: 0.5em 0 2em 0;
+  margin: 1em 0 2em 0;
   font-weight: bold;
+  border-radius: 15px;
+  border-color: #1498d5;
+  text-align: center;
+  background-color: #1498d573;
+  caret-color: #fff;
+}
+
+
+#contact #message {
+  padding-top: 10px;
 }
 
 #contact label {
@@ -384,20 +398,31 @@ button {
 }
 
 #contact textarea {
-  min-height: 10em;
+  border-radius: 8px;
+  min-height: 7em;
+  text-align: left;
 }
 
+:focus::placeholder {
+  opacity: 0;
+}
 
+::placeholder {
+  opacity: 1;
+  transition: opacity .5s;
+  color: #fff;
+  padding-left: 20px;
+}
 
 #contact #submit {
   outline: none;
   padding: 12px;
   min-width: 200px;
   border-radius: 2px;
-  border: 2px solid #ff6363;
+  border: 2px solid #1498d5;
   text-align: center;
   font-size: 1em;
-  color: #ff6363;
+  color: #1498d5;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -405,15 +430,44 @@ button {
 }
 
 #contact #submit:hover {
-  background-color: #ff6363;
+  background-color: #1498d5;
   color: white;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
+#contact .contact_wrapper h1{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  padding-top: 200px;
+  padding: 200px 0px 100px 0px;
+}
+
+#contact .contact_wrapper p{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0px 0px 100px 0px;
+  font-weight: 700;
+
+}
+
+#contact #contact_me{
+  color: #f300b4;
+  padding-left: 1rem;
+}
+
+#contact #contact_span{
+  color: #f300b4;
+  padding-right: 1rem;
+}
 
 /* end of contact section */
 
