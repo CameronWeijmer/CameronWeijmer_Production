@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -87,13 +87,15 @@ nav ul li a {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.75rem;
   font-weight: 900;
   color: #1498d5;
   text-transform: capitalize;
   letter-spacing: 1px;
-  padding: 1.25rem 0rem 0rem 2rem;
+  padding: 1rem 0rem 0rem 2rem;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .menuicon {
