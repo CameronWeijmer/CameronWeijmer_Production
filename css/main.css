@@ -184,33 +184,53 @@ button {
   background-color: #1498d5;
 }
 
+#about .section-title {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  color: #000;
+  padding-bottom: 100px;
+}
+
 #about .about {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
 }
 
 #about .col-right h1 {
-  font-size: 1.8rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0px;
 }
 
 #about .col-right p {
+  display: flex;
   margin-bottom: 20px;
+  padding: 0px 20px 0px 0px;
+  font-weight: 900;
+  color: #fff;
 }
 
 #about .about-img {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 100px 300px;
+}
+
+#about .title_img {
   display: flex;
   justify-content: center;
 }
 
 #about img {
   border-radius: 50%;
-  width: 15%;
-  filter:  url(#svgThreshold)
+  width: 25%;
+  filter: url(#svgThreshold)
+}
+
+#about .about-text {
+  padding-bottom: 150px;
 }
 
 /* end of About Section */
@@ -341,6 +361,11 @@ button {
 /* Tablet */
 @media only screen and (min-width: 768px) {
 
+  /* start of about section */
+
+
+  /* end of about */
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -353,9 +378,9 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
-  /* body {
-    min-height: 100vh;
-  } */
+  html {
+    oveflow-y: hidden;
+  }
 
   nav {
     position: absolute;
@@ -462,6 +487,35 @@ button {
   /* #portfolio {
     margin-top: 345px;
   } */
+
+  /* start of about */
+
+  #about img {
+    width: 50%;
+  }
+
+  #about .about-img {
+    padding: 0px 0px 100px 0px;
+  }
+
+  #about .title_img {
+    display: grid;
+  }
+
+  #about .section-title {
+    justify-content: center;
+  }
+
+  #about .col-right p {
+    padding: 0px 32px 0px 36px;
+  }
+
+  #about .about-text {
+    line-height: 20px;
+  }
+
+  /* end of about */
+
 }
 
 @media only screen and (max-width: 500px) {
