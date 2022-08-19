@@ -368,7 +368,6 @@ button {
 }
 
 #contact .form_control {
-  border: 2px solid rgba(0, 0, 0, 0.27);
   width: 100%;
   max-width: 100%;
   height: 3em;
@@ -377,9 +376,9 @@ button {
   margin: 1em 0 2em 0;
   font-weight: bold;
   border-radius: 15px;
-  border-color: #1498d5;
+  border-color: rgba(0, 0, 0, 0);
   text-align: center;
-  background-color: #1498d573;
+  background-color: rgba(255, 255, 255, 0.151);
   caret-color: #fff;
 }
 
@@ -392,7 +391,6 @@ button {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -417,16 +415,15 @@ button {
 #contact #submit {
   outline: none;
   padding: 12px;
-  min-width: 200px;
+  width: 50%;
   border-radius: 2px;
   border: 2px solid #1498d5;
   text-align: center;
-  font-size: 1em;
   color: #1498d5;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 #contact #submit:hover {
@@ -439,35 +436,53 @@ button {
   transition: all 0.5s ease-in-out;
 }
 
-#contact .contact_wrapper h1{
+#contact .contact_wrapper h1 {
   display: flex;
   justify-content: center;
   color: #fff;
-  font-size: 3rem;
   font-weight: 400;
-  padding-top: 200px;
-  padding: 200px 0px 100px 0px;
+  padding: 300px 0px 100px 0px;
 }
 
-#contact .contact_wrapper p{
+#contact .contact_wrapper p {
   display: flex;
   justify-content: center;
-  color: #fff;
+  color: #f300b4;
   font-size: 1.25rem;
   padding: 0px 0px 100px 0px;
   font-weight: 700;
-
 }
 
-#contact #contact_me{
+#contact #contact_me {
   color: #f300b4;
-  padding-left: 1rem;
+  line-height: 200%;
 }
 
-#contact #contact_span{
-  color: #f300b4;
-  padding-right: 1rem;
+#contact .contact_wrapper #span_wantto {
 }
+
+#contact #contact_span {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#contact #contact_span2 {
+  color: #f300b4;
+  font-size: 1.5rem;
+
+  /* padding-right: 5rem; */
+}
+
+#contact .em_none {
+  padding-right: 9rem;
+  font-size: 3rem;
+}
+
+#contact .em_none1 {
+  font-size: 3rem;
+  padding-left: 9rem;
+}
+
 
 /* end of contact section */
 
@@ -646,6 +661,79 @@ button {
 
   /* end of projects */
 }
+
+/* start of contact form */
+
+#contact .contact_form {
+  min-width: 0%;
+  max-width: 70%;
+}
+
+#contact .contact_wrapper {
+  flex-direction: column;
+}
+
+#contact .content_wrapper {
+  line-height: 200%;
+
+}
+
+#contact .contact_wrapper #span_wantto {
+  font-size: 40px;
+}
+
+#contact .contact_wrapper #contact_me {
+  padding-left: 0px;
+  font-size: 40px;
+}
+
+
+#contact .contact_wrapper h1 {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  font-weight: 900;
+  font-size: 0px;
+}
+
+
+#contact .contact_wrapper p {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  font-weight: 900;
+  line-height: 150%;
+  padding: 0px 25px 100px 25px;
+  font-size: 15px;
+}
+
+#contact #submit {
+  padding: 12px;
+  min-width: 100px;
+  border-radius: 2px;
+  border: 2px solid #1498d5;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #1498d5;
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#contact .em_none {
+  padding-right: 0rem;
+}
+
+#contact .em_none1 {
+  padding-left: 0rem;
+}
+
+::placeholder {
+  font-size: 0.8rem;
+}
+
+/* end of contact form  */
 
 @media only screen and (max-width: 500px) {
   .project-item {
