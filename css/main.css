@@ -90,7 +90,7 @@ nav ul li a {
   font-family: 'Rock Salt', cursive;
   font-size: 1.5rem;
   font-weight: 900;
-  color: #1498d5;
+  color: #fff;
   text-transform: capitalize;
   letter-spacing: 1px;
   padding: 1rem 0rem 0rem 2rem;
@@ -184,22 +184,33 @@ button {
   background-color: #1498d5;
 }
 
-#about .about_img{
-  border-radius: 50%;
-}
-
-#about .info {
+#about .about {
   display: flex;
-  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-#about h2 {
-  color: #000;
+#about .col-right h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  margin-bottom: 10px;
 }
 
-#about .info p {
-  line-height: 270%;
-  color: #fff;
+#about .col-right p {
+  margin-bottom: 20px;
+}
+
+#about .about-img {
+  display: flex;
+  justify-content: center;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 15%;
+  filter:  url(#svgThreshold)
 }
 
 /* end of About Section */
@@ -326,6 +337,11 @@ button {
 /* end of footer */
 
 /* Responsiveness */
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+
+}
 
 @media only screen and (max-width: 760px) {
   nav {
