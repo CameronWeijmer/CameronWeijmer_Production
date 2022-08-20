@@ -184,11 +184,11 @@ button {
   padding-top: 20px;
 }
 
-#main .arrow_div{
+#main .arrow_div {
   padding-top: 150px;
 }
 
-#main #arrow_img{
+#main #arrow_img {
   filter: invert(1);
   cursor: pointer;
 }
@@ -242,7 +242,8 @@ button {
 #about img {
   border-radius: 50%;
   width: 25%;
-  filter: drop-shadow(0px 0px 50px #fff);
+  filter: drop-shadow(5px 5px 50px #fff);
+  /* invert(0.4) saturate(0) */
 }
 
 #about .about-text {
@@ -471,8 +472,28 @@ button {
 /* Footer Section */
 
 #footer {
-  background-color: #fff;
+  background: #c0c0c0e6;
   padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#footer .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#footer .copyright {
+  display: flex;
+  justify-content: center;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: .25rem;
 }
 
 /* end of footer */
@@ -500,6 +521,7 @@ button {
     oveflow-y: hidden;
   }
 
+  /* start of main */
   nav {
     position: absolute;
     display: grid;
@@ -602,22 +624,17 @@ button {
     min-height: 100vh;
   }
 
-  #main .arrow_div{
+  #main .arrow_div {
     padding-top: 80px;
   }
+
+  /* end of main */
+  /* start of about */
 
   #about {
     padding-top: 100px;
     background-color: #1498d5;
   }
-  
-  
-
-  /* #portfolio {
-    margin-top: 345px;
-  } */
-
-  /* start of about */
 
   #about img {
     width: 50%;
@@ -645,14 +662,23 @@ button {
 
   /* end of about */
   /* start of projects */
+
   #projects {
     padding-top: 10px;
   }
 
   /* end of projects */
+
+  /* start of footer */
+
+#footer{
+  font-size: 11px;
 }
 
-/* end of contact form  */
+  /* end of footer */
+
+}
+
 
 @media only screen and (max-width: 500px) {
   .project-item {
