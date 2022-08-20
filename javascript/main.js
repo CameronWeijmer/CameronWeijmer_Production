@@ -54,19 +54,29 @@ function onScroll() {
     logo.style.color = "#000";
   }
 
-  if (window.scrollY >= 1732) {
+  if (window.scrollY <= 1683) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
     const element4 = document.getElementById("nav_a_id4");
-    const element5 = document.getElementById("nav_a_id5");
+    element1.style.color = "#fff";
+    element2.style.color = "#fff";
+    element3.style.color = "#fff";
+    element4.style.color = "#fff";
+  }
+
+
+  if (window.scrollY >= 1684) {
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
     const logo = document.getElementById("home_logo");
     logo.style.color = "#f300b4";
     element1.style.color = "#000";
     element2.style.color = "#000";
     element3.style.color = "#000";
     element4.style.color = "#000";
-    element5.style.color = "#000";
   }
 
   if (window.scrollY >= 2928) {
@@ -74,14 +84,12 @@ function onScroll() {
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
     const element4 = document.getElementById("nav_a_id4");
-    const element5 = document.getElementById("nav_a_id5");
     const logo = document.getElementById("home_logo");
     logo.style.color = "#1498d5";
     element1.style.color = "#fff";
     element2.style.color = "#fff";
     element3.style.color = "#fff";
     element4.style.color = "#fff";
-    element5.style.color = "#fff";
   }
 
   if (window.scrollY < 900) {
@@ -89,11 +97,9 @@ function onScroll() {
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
     const element4 = document.getElementById("nav_a_id4");
-    const element5 = document.getElementById("nav_a_id5");
     element1.style.color = "#fff";
     element2.style.color = "#fff";
     element3.style.color = "#fff";
     element4.style.color = "#fff";
-    element5.style.color = "#fff";
   }
 }
