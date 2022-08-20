@@ -16,7 +16,7 @@
             <!-- NAVIGATION -->
             <div class="nav_div">
                 <nav id="nav_id" class="toAnimate">
-                    <h1 id="home_logo" class="logo" href="#main">Cameron</h1>
+                    <h1 id="home_logo" class="logo" onclick="window.location.href = '#main';">Cameron</h1>
                     <ul id="menuList">
                         <li><a class="nav_list" id="nav_a_id1" href="#main">Home</a></li>
                         <li><a class="nav_list" id="nav_a_id2" href="#about">About</a></li>
@@ -131,7 +131,7 @@
             <h1 class="title">want to</h1>
             <h1 class="title-p">contact me</h1>
         </div>
-        <form class="form">
+        <form action="https://formsubmit.co/cameron@cameronweijmer.com" method="POST" class="form">
             <div class="form-control">
                 <input type="text" placeholder="Name *">
             </div>
@@ -145,8 +145,9 @@
                 <textarea cols="30" rows="10" placeholder="Message *"></textarea>
             </div>
             <div class="form-control">
-                <button class="submit-btn">submit</button>
+                <button type="submit" class="submit-btn">submit</button>
             </div>
+            <input type="hidden" name="_template" value="table">
         </form>
     </section>
     <!-- end of contact form -->
