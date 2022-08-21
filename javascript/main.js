@@ -47,6 +47,14 @@ function onScroll() {
   if (window.scrollY < 900) {
     const logo = document.getElementById("home_logo");
     logo.style.color = "#fff";
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
+    element1.style.color = "#fff";
+    element2.style.color = "#fff";
+    element3.style.color = "#fff";
+    element4.style.color = "#fff";
   }
 
   if (window.scrollY >= 900) {
@@ -64,7 +72,6 @@ function onScroll() {
     element3.style.color = "#fff";
     element4.style.color = "#fff";
   }
-
 
   if (window.scrollY >= 1684) {
     const element1 = document.getElementById("nav_a_id1");
@@ -86,17 +93,6 @@ function onScroll() {
     const element4 = document.getElementById("nav_a_id4");
     const logo = document.getElementById("home_logo");
     logo.style.color = "#1498d5";
-    element1.style.color = "#fff";
-    element2.style.color = "#fff";
-    element3.style.color = "#fff";
-    element4.style.color = "#fff";
-  }
-
-  if (window.scrollY < 900) {
-    const element1 = document.getElementById("nav_a_id1");
-    const element2 = document.getElementById("nav_a_id2");
-    const element3 = document.getElementById("nav_a_id3");
-    const element4 = document.getElementById("nav_a_id4");
     element1.style.color = "#fff";
     element2.style.color = "#fff";
     element3.style.color = "#fff";
