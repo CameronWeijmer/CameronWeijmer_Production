@@ -116,7 +116,6 @@ function onScroll() {
     element.classList.remove("form_manipulation");
   }
 
-
   if (window.scrollY >= 2928) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
