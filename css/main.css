@@ -205,7 +205,8 @@ button {
   justify-content: left;
   text-align: center;
   color: #000;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  /* opacity: 0; */
 }
 
 #about .about {
@@ -237,6 +238,7 @@ button {
 #about .title_img {
   display: flex;
   justify-content: center;
+  opacity: 0;
 }
 
 #about img {
@@ -248,12 +250,101 @@ button {
 
 #about .about-text {
   padding-bottom: 150px;
+  opacity: 0;
 }
 
 #about #me_span {
   color: #fff;
   padding-left: 1rem;
 }
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.toAnimate {
+  opacity: 0;
+}
+
+.fadeIn {
+  animation: fadeInRight 2s;
+}
+
+.aboutAnimate {
+  opacity: 0;
+}
+
+.fadeup {
+  animation: fadeInRight 2s;
+  padding-bottom: 150px;
+}
+
+.project_title_animate {
+  opacity: 0;
+}
+
+.fadeup_project {
+  animation: fadeInRight 2s;
+  padding-bottom: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: 0;
+  font-size: 3rem;
+  /* opacity: 0; */
+}
+
+@keyframes contact_fade {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.top-bar {
+  opacity: 0;
+}
+
+.contact_fadeIn {
+  animation: contact_fade 1s;
+  font-size: clamp(1rem, 5vw + 2rem, 5rem);
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  opacity: 1;
+}
+
+.contact_fadeIn>.title {
+  font-size: clamp(1rem, 5vw + 2rem, 5rem);
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  opacity: 1;
+}
+
+.contact_fadeIn>.title-p {
+  font-size: clamp(1rem, 5vw + 2rem, 5rem);
+  text-transform: capitalize;
+  color: #f300b4;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 
 /* end of About Section */
 /* Project Section */
@@ -280,6 +371,7 @@ button {
   text-align: center;
   font-weight: 400;
   font-size: 3rem;
+  opacity: 0;
 }
 
 .lang_html,
@@ -673,9 +765,9 @@ button {
 
   /* start of footer */
 
-#footer{
-  font-size: 11px;
-}
+  #footer {
+    font-size: 11px;
+  }
 
   /* end of footer */
 
