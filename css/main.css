@@ -241,7 +241,7 @@ button {
 
 #about img {
   border-radius: 50%;
-  width: 25%;
+  width: 35%;
   filter: drop-shadow(5px 5px 50px #fff);
   /* invert(0.4) saturate(0) */
 }
@@ -420,25 +420,25 @@ button {
 .form>.form-control>input {
   padding: 10px 0px;
   border: 1px solid rgba(255, 255, 255, 0.37);
-  background: #ff00bb63;
+  background: #ffffffd3;
   width: 100%;
   border-radius: 3px;
   font-size: 1rem;
   text-indent: 10px;
   color: #fff;
-  caret-color: #1498d5;
+  caret-color: #000;
 }
 
 .form>.form-control>textarea {
   padding: 10px 0px;
   border: 1px solid rgba(255, 255, 255, 0.37);
-  background: #00aeff65;
+  background: #ffffffd3;
   width: 100%;
   border-radius: 3px;
   font-size: 1rem;
   text-indent: 10px;
   color: #fff;
-  caret-color: #f300b4;
+  caret-color: #000;
 }
 
 .form>.form-control>.submit-btn {
@@ -459,8 +459,10 @@ button {
 
 ::placeholder {
   transition: .5s ease-in-out;
-  color: #fff;
+  color: #000;
+  font-weight: 700;
   opacity: 1;
+  text-align: left;
 }
 
 :focus::placeholder {
