@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -user-drag: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.background_img {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#desc {
+    padding-top: 20px;
+}
+
+.desc_p {
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.desc_p1 {
+    font-size: 1.25rem;
+    padding-top: 50px;
+}
+
+a {
+    color: #1498d5;
+    text-decoration: none;
+    font-weight: 900;
+
+}
+
+span.cover {
+    color: #1498d5;
+  }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 20rem;
+    align-items: center;
+    font-size: 1.75rem;
+    color: #fff;
+    visibility: visible;
+}
