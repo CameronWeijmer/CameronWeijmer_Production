@@ -57,9 +57,33 @@ function onScroll() {
     element4.style.color = "#fff";
   }
 
+  if (window.scrollY >= 300) {
+    const element = document.getElementById("about_fade");
+    element.classList.add("fadeIn");
+    element.classList.remove("title_img");
+  }
+
+  if (window.scrollY >= 600) {
+    const element = document.getElementById("animate_text");
+    element.classList.add("fadeup");
+    element.classList.remove("about-text");
+  }
+
   if (window.scrollY >= 900) {
     const logo = document.getElementById("home_logo");
     logo.style.color = "#000";
+  }
+
+  if (window.scrollY >= 1300) {
+    const element = document.getElementById("project_title2");
+    element.classList.add("fadeup_project");
+    element.classList.remove("projects-header");
+  }
+
+  if (window.scrollY >= 1548) {
+    const element = document.getElementById("all_projects_id");
+    element.classList.add("fadeIn");
+    element.classList.remove("title_img");
   }
 
   if (window.scrollY <= 1683) {
@@ -85,6 +109,13 @@ function onScroll() {
     element3.style.color = "#000";
     element4.style.color = "#000";
   }
+
+  if (window.scrollY >= 2792) {
+    const element = document.getElementById("top-bar-id");
+    element.classList.add("contact_fadeIn");
+    element.classList.remove("form_manipulation");
+  }
+
 
   if (window.scrollY >= 2928) {
     const element1 = document.getElementById("nav_a_id1");
