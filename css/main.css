@@ -241,7 +241,7 @@ button {
   opacity: 0;
 }
 
-#about img {
+#about #about_me_img {
   border-radius: 50%;
   width: 35%;
   filter: drop-shadow(5px 5px 50px #fff);
@@ -257,6 +257,16 @@ button {
   color: #fff;
   padding-left: 1rem;
 }
+
+
+#about .arrow_img_mobile {
+  display: none;
+}
+
+#projects .arrow_img_mobile {
+  display: none;
+}
+
 
 @keyframes fadeInRight {
   from {
@@ -730,7 +740,14 @@ button {
     background-color: #1498d5;
   }
 
-  #about img {
+  #about .arrow_img_mobile {
+    display: flex;
+    padding-top: 50px;
+    transform: rotate(3.142rad);
+    filter: invert(1);
+  }
+
+  #about #about_me_img {
     width: 50%;
   }
 
@@ -759,6 +776,16 @@ button {
 
   #projects {
     padding-top: 10px;
+  }
+
+  #projects .arrow_img_mobile {
+    display: flex;
+    padding-top: 50px;
+    transform: rotate(3.142rad);
+  }
+
+  .fadeup_project {
+    padding-bottom: 0px;
   }
 
   /* end of projects */
