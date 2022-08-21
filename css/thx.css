@@ -48,20 +48,24 @@ a {
     color: #1498d5;
     text-decoration: none;
     font-weight: 900;
-
 }
 
 span.cover {
     color: #1498d5;
-  }
+}
 
 #content {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 20rem;
+    padding-top: 5rem;
     align-items: center;
     font-size: 1.75rem;
     color: #fff;
-    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    #content {
+        font-size: 1rem;
+    }
 }
