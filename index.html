@@ -15,7 +15,7 @@
         <div class="background_img">
             <!-- NAVIGATION -->
             <div class="nav_div">
-                <nav id="nav_id" class="toAnimate">
+                <nav id="nav_id" class="toanimate">
                     <h1 id="home_logo" class="logo" onclick="window.location.href = '#main';">Cameron</h1>
                     <ul id="menuList">
                         <li><a class="nav_list" id="nav_a_id1" href="#main">Home</a></li>
@@ -52,13 +52,13 @@
         <section id="about">
             <div class="about container">
                 <div class="col-right">
-                    <div class="title_img">
+                    <div id="about_fade" class="title_img">
                         <h1 class="section-title">About<span id="me_span">Me</span></h1>
                         <div class="about-img">
                             <img src="./assets/undraw_Programming_re_kg9v.png" alt="Picture of Cameron Weijmer">
                         </div>
                     </div>
-                    <div class="about-text">
+                    <div id="animate_text" class="about-text">
                         <!-- a little about me -->
                         <p>I am a full stack web developer with a passion for creating beautiful, functional, and
                             user-friendly websites.<br class="none"><br>I have a strong background in web development
@@ -72,15 +72,16 @@
                         <p> I love to play tennis and i am playing piano and ukulele.</p>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- end of about -->
         <!-- PORTFOLIO -->
         <section id="projects">
             <div class="projects container">
-                <div class="projects-header">
-                    <h1 class="section-title">Recent <span id="project_span">Projects</span></h1>
+                <div id="project_title2" class="projects-header">
+                    <h1 id="project_title" class="section_title">Recent <span id="project_span">Projects</span></h1>
                 </div>
-                <div class="all-projects">
+                <div id="all_projects_id" class="all-projects">
                     <div class="project-item">
                         <div class="project-img">
                             <img src="./assets/cryptowebsite.png" width="100%" alt="img">
@@ -127,7 +128,7 @@
     <!-- End of portfolio -->
     <!-- start of contact form -->
     <section id="contact" class="background_img">
-        <div class="top-bar">
+        <div id="top-bar-id" class="top-bar">
             <h1 class="title">want to</h1>
             <h1 class="title-p">contact me</h1>
         </div>
