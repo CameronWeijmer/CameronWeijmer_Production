@@ -429,6 +429,7 @@ button {
   flex-wrap: wrap;
   gap: 50px;
   padding: 10px;
+  opacity: 0;
 }
 
 .project-item {
