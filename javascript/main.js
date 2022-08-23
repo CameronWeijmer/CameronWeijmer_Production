@@ -82,11 +82,11 @@ function onScroll() {
 
   if (window.scrollY >= 1548) {
     const element = document.getElementById("all_projects_id");
-    element.classList.add("fadeIn");
-    element.classList.remove("title_img");
+    element.classList.add("fadeup_project");
+    element.classList.remove("all-projects");
   }
 
-  if (window.scrollY <= 1683) {
+  if (window.scrollY <= 1848) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
@@ -97,7 +97,7 @@ function onScroll() {
     element4.style.color = "#fff";
   }
 
-  if (window.scrollY >= 1684) {
+  if (window.scrollY >= 1835) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
@@ -110,13 +110,13 @@ function onScroll() {
     element4.style.color = "#000";
   }
 
-  if (window.scrollY >= 2792) {
+  if (window.scrollY >= 2384) {
     const element = document.getElementById("top-bar-id");
     element.classList.add("contact_fadeIn");
-    element.classList.remove("form_manipulation");
+    element.classList.remove("top-bar");
   }
 
-  if (window.scrollY >= 2928) {
+  if (window.scrollY >= 3105) {
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
