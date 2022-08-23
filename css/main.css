@@ -24,6 +24,21 @@ body {
   background-color: #000;
 }
 
+button {
+  background: none;
+  border: 2px solid #1498d5;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.5em 1rem;
+  border-radius: 20px;
+}
+
+.button {
+  display: flex;
+  padding-top: 1rem;
+}
+
 .background_img {
   background-image: url("../assets/background.jpg");
   background-size: cover;
@@ -139,39 +154,6 @@ span.cover {
   color: #1498d5;
 }
 
-button {
-  background: none;
-  border: 2px solid #1498d5;
-  font: inherit;
-  line-height: 1;
-  margin: 0.5em;
-  padding: 0.5em 1rem;
-  border-radius: 20px;
-}
-
-.button {
-  display: flex;
-  padding-top: 1rem;
-}
-
-.pulse {
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.pulse:hover,
-.pulse:focus {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 #1498d5;
-  }
-}
-
 #desc {
   display: flex;
   justify-content: left;
@@ -267,6 +249,8 @@ button {
   display: none;
 }
 
+/* Start of Animation */
+
 
 @keyframes fadeInRight {
   from {
@@ -279,6 +263,20 @@ button {
     transform: none;
   }
 }
+
+@keyframes contact_fade {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+/* end of animation */
+
 
 .toAnimate {
   opacity: 0;
@@ -302,25 +300,21 @@ button {
 }
 
 .fadeup_project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 10px;
   animation: fadeInRight 2s;
-  padding-bottom: 150px;
-  margin-bottom: 100px;
-  text-align: center;
-  font-weight: 0;
-  font-size: 3rem;
   /* opacity: 0; */
 }
 
-@keyframes contact_fade {
-  from {
-    opacity: 0;
-    transform: translate3d(50px, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
+.fadeup_project h1 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .top-bar {
@@ -328,7 +322,7 @@ button {
 }
 
 .contact_fadeIn {
-  animation: contact_fade 1s;
+  animation: contact_fade 2s;
   font-size: clamp(1rem, 5vw + 2rem, 5rem);
   text-transform: capitalize;
   color: #fff;
@@ -381,6 +375,10 @@ button {
   text-align: center;
   font-weight: 400;
   font-size: 3rem;
+  opacity: 0;
+}
+
+#projects .projects-header {
   opacity: 0;
 }
 
