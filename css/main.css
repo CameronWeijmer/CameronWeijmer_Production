@@ -275,6 +275,18 @@ span.cover {
     transform: translate3d(0, 0, 0);
   }
 }
+
+@keyframes fadeInDown{
+  from {
+    opacity: 0;
+    transform: translate3d(0, -75px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 /* end of animation */
 
 
@@ -347,6 +359,14 @@ span.cover {
   font-weight: 400;
   text-align: center;
   padding-bottom: 10px;
+}
+
+.arrow_fade{
+  animation: fadeInDown 2s;
+}
+
+.remove_me{
+  opacity: 0;
 }
 
 
