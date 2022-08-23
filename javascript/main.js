@@ -39,6 +39,14 @@ btn.addEventListener("click", () => {
   togglemenu();
 });
 
+window.addEventListener("load", () => {
+  setTimeout(function () {
+    const arrowImg = document.getElementById("arrow_img");
+    arrowImg.classList.remove("remove_me");
+    arrowImg.classList.add("arrow_fade");
+  }, 3000);
+});
+
 // navbar scroll
 
 function onScroll() {
