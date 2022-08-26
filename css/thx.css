@@ -39,6 +39,10 @@ body {
     padding-top: 20px;
 }
 
+#big_404{
+    font-size: 7rem;
+}
+
 .desc_p1 {
     font-size: 1.25rem;
     padding-top: 50px;
