@@ -144,7 +144,7 @@
             <h1 class="title">want to</h1>
             <h1 class="title-p">contact me</h1>
         </div>
-        <form action="https://formspree.io/f/xdojoqja" method="POST" class="form">
+        <form action="https://formspree.io/f/xdojoqja" method="POST" id="empyForm" class="form">
             <div class="form-control">
                 <input type="text" name="name" placeholder="Name *">
             </div>
@@ -158,7 +158,7 @@
                 <textarea cols="30" name="message" rows="10" placeholder="Message *"></textarea>
             </div>
             <div class="form-control">
-                <button type="submit" class="submit-btn">submit</button>
+                <button type="submit" onsubmit="clearForm()" class="submit-btn">submit</button>
             </div>
             <!-- <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_next" value="https://cameronweijmer.com/thx.html">

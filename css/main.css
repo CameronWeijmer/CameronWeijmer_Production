@@ -109,24 +109,24 @@ nav ul li a {
   color: #ffff;
 }
 
-#nav_id{
+#nav_id {
   transition: all 1.5s ease-out;
   color: #ffffff2a;
 }
 
-#nav_a_id1{
+#nav_a_id1 {
   transition: all 1.5s ease-out;
 }
 
-#nav_a_id2{
+#nav_a_id2 {
   transition: all 1.5s ease-out;
 }
 
-#nav_a_id3{
+#nav_a_id3 {
   transition: all 1.5s ease-out;
 }
 
-#nav_a_id4{
+#nav_a_id4 {
   transition: all 1.5s ease-out;
 }
 
@@ -142,7 +142,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-#home_logo{
+#home_logo {
   transition: all 1.5s ease-out;
 }
 

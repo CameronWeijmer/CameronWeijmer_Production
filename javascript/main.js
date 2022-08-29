@@ -47,6 +47,10 @@ window.addEventListener("load", () => {
   }, 3000);
 });
 
+function clearForm() {
+  document.getElementById("empyForm").reset();
+}
+
 // navbar scroll
 
 function onScroll() {
