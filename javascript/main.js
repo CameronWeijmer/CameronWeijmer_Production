@@ -69,7 +69,7 @@ function onScroll() {
 
   if (window.scrollY > 1) {
     const nav = document.getElementById("nav_id");
-    nav.style.backgroundColor = "#ffffff5d";
+    nav.style.backgroundColor = "#ffffff2a";
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
