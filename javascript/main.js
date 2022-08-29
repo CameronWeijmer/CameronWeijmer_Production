@@ -52,9 +52,9 @@ window.addEventListener("load", () => {
 function onScroll() {
   console.log(window.scrollY);
 
-  if (window.scrollY < 900) {
-    const logo = document.getElementById("home_logo");
-    logo.style.color = "#fff";
+  if (window.scrollY <= 1) {
+    const nav = document.getElementById("nav_id");
+    nav.style.backgroundColor = "#ffffff00";
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
@@ -63,7 +63,37 @@ function onScroll() {
     element2.style.color = "#fff";
     element3.style.color = "#fff";
     element4.style.color = "#fff";
+    const logo = document.getElementById("home_logo");
+    logo.style.color = "#fff";
   }
+
+  if (window.scrollY > 1) {
+    const nav = document.getElementById("nav_id");
+    nav.style.backgroundColor = "#ffffff5d";
+    const element1 = document.getElementById("nav_a_id1");
+    const element2 = document.getElementById("nav_a_id2");
+    const element3 = document.getElementById("nav_a_id3");
+    const element4 = document.getElementById("nav_a_id4");
+    element1.style.color = "#000";
+    element2.style.color = "#000";
+    element3.style.color = "#000";
+    element4.style.color = "#000";
+    const logo = document.getElementById("home_logo");
+    logo.style.color = "#000";
+  }
+
+  // if (window.scrollY < 900) {
+  //   const logo = document.getElementById("home_logo");
+  //   logo.style.color = "#fff";
+  //   const element1 = document.getElementById("nav_a_id1");
+  //   const element2 = document.getElementById("nav_a_id2");
+  //   const element3 = document.getElementById("nav_a_id3");
+  //   const element4 = document.getElementById("nav_a_id4");
+  //   element1.style.color = "#fff";
+  //   element2.style.color = "#fff";
+  //   element3.style.color = "#fff";
+  //   element4.style.color = "#fff";
+  // }
 
   if (window.scrollY >= 300) {
     const element = document.getElementById("about_fade");
@@ -77,10 +107,10 @@ function onScroll() {
     element.classList.remove("about-text");
   }
 
-  if (window.scrollY >= 900) {
-    const logo = document.getElementById("home_logo");
-    logo.style.color = "#000";
-  }
+  // if (window.scrollY >= 900) {
+  //   const logo = document.getElementById("home_logo");
+  //   logo.style.color = "#000";
+  // }
 
   if (window.scrollY >= 1300) {
     const element = document.getElementById("project_title2");
@@ -94,29 +124,29 @@ function onScroll() {
     element.classList.remove("all-projects");
   }
 
-  if (window.scrollY <= 1848) {
-    const element1 = document.getElementById("nav_a_id1");
-    const element2 = document.getElementById("nav_a_id2");
-    const element3 = document.getElementById("nav_a_id3");
-    const element4 = document.getElementById("nav_a_id4");
-    element1.style.color = "#fff";
-    element2.style.color = "#fff";
-    element3.style.color = "#fff";
-    element4.style.color = "#fff";
-  }
+  // if (window.scrollY <= 1848) {
+  //   const element1 = document.getElementById("nav_a_id1");
+  //   const element2 = document.getElementById("nav_a_id2");
+  //   const element3 = document.getElementById("nav_a_id3");
+  //   const element4 = document.getElementById("nav_a_id4");
+  //   element1.style.color = "#fff";
+  //   element2.style.color = "#fff";
+  //   element3.style.color = "#fff";
+  //   element4.style.color = "#fff";
+  // }
 
-  if (window.scrollY >= 1835) {
-    const element1 = document.getElementById("nav_a_id1");
-    const element2 = document.getElementById("nav_a_id2");
-    const element3 = document.getElementById("nav_a_id3");
-    const element4 = document.getElementById("nav_a_id4");
-    const logo = document.getElementById("home_logo");
-    logo.style.color = "#f300b4";
-    element1.style.color = "#000";
-    element2.style.color = "#000";
-    element3.style.color = "#000";
-    element4.style.color = "#000";
-  }
+  // if (window.scrollY >= 1835) {
+  //   const element1 = document.getElementById("nav_a_id1");
+  //   const element2 = document.getElementById("nav_a_id2");
+  //   const element3 = document.getElementById("nav_a_id3");
+  //   const element4 = document.getElementById("nav_a_id4");
+  //   const logo = document.getElementById("home_logo");
+  //   logo.style.color = "#f300b4";
+  //   element1.style.color = "#000";
+  //   element2.style.color = "#000";
+  //   element3.style.color = "#000";
+  //   element4.style.color = "#000";
+  // }
 
   if (window.scrollY >= 2384) {
     const element = document.getElementById("top-bar-id");
@@ -124,16 +154,16 @@ function onScroll() {
     element.classList.remove("top-bar");
   }
 
-  if (window.scrollY >= 3105) {
-    const element1 = document.getElementById("nav_a_id1");
-    const element2 = document.getElementById("nav_a_id2");
-    const element3 = document.getElementById("nav_a_id3");
-    const element4 = document.getElementById("nav_a_id4");
-    const logo = document.getElementById("home_logo");
-    logo.style.color = "#1498d5";
-    element1.style.color = "#fff";
-    element2.style.color = "#fff";
-    element3.style.color = "#fff";
-    element4.style.color = "#fff";
-  }
+  // if (window.scrollY >= 3105) {
+  //   const element1 = document.getElementById("nav_a_id1");
+  //   const element2 = document.getElementById("nav_a_id2");
+  //   const element3 = document.getElementById("nav_a_id3");
+  //   const element4 = document.getElementById("nav_a_id4");
+  //   const logo = document.getElementById("home_logo");
+  //   logo.style.color = "#1498d5";
+  //   element1.style.color = "#fff";
+  //   element2.style.color = "#fff";
+  //   element3.style.color = "#fff";
+  //   element4.style.color = "#fff";
+  // }
 }
