@@ -109,6 +109,27 @@ nav ul li a {
   color: #ffff;
 }
 
+#nav_id{
+  transition: all 1.5s ease-out;
+
+}
+
+#nav_a_id1{
+  transition: all 1.5s ease-out;
+}
+
+#nav_a_id2{
+  transition: all 1.5s ease-out;
+}
+
+#nav_a_id3{
+  transition: all 1.5s ease-out;
+}
+
+#nav_a_id4{
+  transition: all 1.5s ease-out;
+}
+
 .logo {
   font-family: "Rock Salt", cursive;
   font-size: 1.5rem;
@@ -119,6 +140,10 @@ nav ul li a {
   padding: 1rem 0rem 0rem 2rem;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+#home_logo{
+  transition: all 1.5s ease-out;
 }
 
 .menuicon {
@@ -276,7 +301,7 @@ span.cover {
   }
 }
 
-@keyframes fadeInDown{
+@keyframes fadeInDown {
   from {
     opacity: 0;
     transform: translate3d(0, -75px, 0);
@@ -287,6 +312,7 @@ span.cover {
     transform: none;
   }
 }
+
 /* end of animation */
 
 
@@ -361,11 +387,11 @@ span.cover {
   padding-bottom: 10px;
 }
 
-.arrow_fade{
+.arrow_fade {
   animation: fadeInDown 2s;
 }
 
-.remove_me{
+.remove_me {
   opacity: 0;
 }
 
