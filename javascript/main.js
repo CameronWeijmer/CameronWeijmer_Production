@@ -73,7 +73,7 @@ function onScroll() {
 
   if (window.scrollY > 1) {
     const nav = document.getElementById("nav_id");
-    nav.style.backgroundColor = "#ffffff2a";
+    nav.style.backgroundColor = "#fff";
     const element1 = document.getElementById("nav_a_id1");
     const element2 = document.getElementById("nav_a_id2");
     const element3 = document.getElementById("nav_a_id3");
@@ -83,7 +83,7 @@ function onScroll() {
     element3.style.color = "#000";
     element4.style.color = "#000";
     const logo = document.getElementById("home_logo");
-    logo.style.color = "#000";
+    logo.style.color = "#f300b4";
   }
 
   // if (window.scrollY < 900) {
