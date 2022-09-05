@@ -152,16 +152,16 @@
         </div>
         <form action="https://formspree.io/f/xdojoqja" method="POST" id="empyForm" class="form">
             <div class="form-control">
-                <input type="text" name="name" placeholder="Name *">
+                <input type="text" name="name" maxlength="50" placeholder="Name *">
             </div>
             <div class="form-control">
-                <input type="email" name="email" placeholder="Email *">
+                <input type="email" name="email" maxlength="50" placeholder="Email *">
             </div>
             <div class="form-control">
-                <input type="number" name="phone" placeholder="Phone">
+                <input type="number" name="phone" maxlength="20" placeholder="Phone">
             </div>
             <div class="form-control">
-                <textarea cols="30" name="message" rows="10" placeholder="Message *"></textarea>
+                <textarea cols="30" maxlength="250" name="message" rows="10" placeholder="Message *"></textarea>
             </div>
             <div class="form-control">
                 <button type="submit" onsubmit="clearForm()" class="submit-btn">submit</button>
