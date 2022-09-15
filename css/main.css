@@ -244,6 +244,7 @@ span.cover {
   display: flex;
   justify-content: center;
   padding: 0px 0px 100px 300px;
+  width: 100%;
 }
 
 #about .title_img {
@@ -255,7 +256,6 @@ span.cover {
 #about #about_me_img {
   border-radius: 50%;
   width: 35%;
-  filter: drop-shadow(5px 5px 50px #fff);
   /* invert(0.4) saturate(0) */
 }
 
