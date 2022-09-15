@@ -83,7 +83,7 @@ function onScroll() {
     element3.style.color = "#000";
     element4.style.color = "#000";
     const logo = document.getElementById("home_logo");
-    logo.style.color = "#f300b4";
+    logo.style.color = "#000";
   }
 
   // if (window.scrollY < 900) {
