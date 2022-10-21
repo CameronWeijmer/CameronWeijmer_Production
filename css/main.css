@@ -57,7 +57,7 @@ nav {
   width: 100%;
   max-width: 1800px;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
   /* background-color: #ffffff08; */
 }
 
@@ -626,7 +626,7 @@ span.cover {
 
 #footer {
   background: #c0c0c0e6;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
